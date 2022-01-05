@@ -21,5 +21,6 @@ contract GameItem is ERC721, ERC721URIStorage {
         _setTokenURI(newItemId, tokenURI);
 
         return newItemId;
+        //test!
     }
 }
